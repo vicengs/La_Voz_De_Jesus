@@ -31,12 +31,12 @@
       "type": "image/png"
     }
   ],
-  "name": "Food Event",
-  "short_name": "Foodies",
+  "name": "La voz de Jesus",
+  "short_name": "VozJesus",
   "orientation": "portrait",
   "display": "standalone",
   "start_url": "../index.html",
-  "description": "An app that allows you to view upcoming food events.",
+  "description": "Aplicacion para ver contenido de la voz de Jesus",
   "background_color": "#01579b",
   "theme_color": "#ffffff"
 }

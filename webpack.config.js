@@ -42,9 +42,9 @@ const config = {
             analyzerMode: "static", // the report outputs to an HTML file in the dist folder
         }),
         new WebpackPwaManifest({
-            name: "Food Event",
-            short_name: "Foodies",
-            description: "An app that allows you to view upcoming food events.",
+            name: "La voz de Jesus",
+            short_name: "Voz",
+            description: "Aplicacion para ver contenido de la voz de Jesus",
             start_url: "../index.html",
             background_color: "#01579b",
             theme_color: "#ffffff",
