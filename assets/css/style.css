@@ -7,10 +7,10 @@ body {
 
 footer {
   background: #666;
-  position: absolute;
   bottom: 0;
   width: 100%;
   clear: both;
+  position: fixed;
 }
 
 .fullscreen-carousel {
