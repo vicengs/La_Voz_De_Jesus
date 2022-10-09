@@ -1,6 +1,6 @@
 require("bootstrap");
-const img1 = require("../../assets/img/food-table.jpg");
-const img2 = require("../../assets/img/grill.jpg");
+const img1 = require("../../assets/img/food-table1.jpg");
+const img2 = require("../../assets/img/grill1.jpg");
 $(document).ready(function() {
   // createEl
   // createLoremIpsum
@@ -12,17 +12,17 @@ $(document).ready(function() {
   // First image is hard coded in index.html
   const carouselSlides = [
     {
-      title: "We travel all over the US",
-      subtitle: "Check out our schedule!",
+      title: "Text 1",
+      subtitle: "Subtext 1",
       img: img1,
-      btnText: "View Schedule",
+      btnText: "Btn text 1",
       btnUrl: "schedule.html"
     },
     {
-      title: "Our food is seriously the bomb!",
-      subtitle: "What are you waiting for?",
+      title: "Text 2",
+      subtitle: "Subtext 2",
       img: img2,
-      btnText: "Purchase Tickets",
+      btnText: "Btn text 2",
       btnUrl: "tickets.html"
     },
   ]

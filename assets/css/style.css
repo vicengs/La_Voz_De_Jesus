@@ -7,10 +7,10 @@ body {
 
 footer {
   background: #666;
+  position: absolute;
   bottom: 0;
   width: 100%;
   clear: both;
-  position: fixed;
 }
 
 .fullscreen-carousel {
@@ -58,7 +58,7 @@ footer {
 }
 
 .page-content {
-  background-image: url("../img/burgers.jpg");
+  background-image: url("../img/Background_La_Voz.jpg");
   background-size: cover;
 }
 
