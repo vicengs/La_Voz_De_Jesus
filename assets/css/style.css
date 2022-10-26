@@ -3,6 +3,8 @@ html, body { margin: 0; padding: 0; }
 body {
   min-height: 100vh;
   position: relative;
+  background-color: rgb(64, 182, 250);
+  color: red;
 }
 
 footer {

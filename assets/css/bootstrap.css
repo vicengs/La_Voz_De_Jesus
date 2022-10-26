@@ -5,6 +5,9 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 :root {
+  --background: #4BA5E4;
+  --button: #b9dcfaf0;
+  --txtbutton: #718596f0;
   --blue: #007bff;
   --indigo: #6610f2;
   --purple: #6f42c1;
@@ -16,7 +19,6 @@
   --teal: #20c997;
   --cyan: #17a2b8;
   --white: #fff;
-  --gray: #6c757d;
   --gray-dark: #343a40;
   --primary: #007bff;
   --secondary: #6c757d;
@@ -53,14 +55,20 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 }
 
 body {
-  margin: 0;
+  margin: 2%;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #212529;
-  text-align: left;
-  background-color: #fff;
+  color: var(--white);
+  text-align: center;
+  background-color: var(--background);
+}
+
+img {
+  border-radius: 100%;
+  /*border-style:solid;
+  background-color: white;*/
 }
 
 [tabindex="-1"]:focus {
@@ -153,9 +161,9 @@ sup {
 }
 
 a {
-  color: #007bff;
+  color: var(--white);
   text-decoration: none;
-  background-color: transparent;
+
 }
 
 a:hover {
@@ -193,11 +201,6 @@ pre {
 
 figure {
   margin: 0 0 1rem;
-}
-
-img {
-  vertical-align: middle;
-  border-style: none;
 }
 
 svg {
@@ -9955,6 +9958,35 @@ a.text-dark:hover, a.text-dark:focus {
 
 .invisible {
   visibility: hidden !important;
+}
+
+.cityBtn{
+  box-shadow: 3px 3px 5px black;
+  width: 35%;
+  padding: .5%;
+  background-color: var(--button);
+  border-radius: 2em;
+  color: var(--txtbutton);
+
+}
+a.button {
+  box-shadow: 3px 3px 5px black;
+  width: 35%;
+  padding: .5% 1%;
+  margin-bottom: 1%;
+  background-color: var(--button);
+  border-radius: 2em;
+  color: var(--txtbutton);
+}
+
+.button-icon {
+  position: absolute;
+  transform: translateX(-50%);
+}
+
+h5 {
+  margin-top: 1%;
+  margin-bottom: 1%;
 }
 
 @media print {
